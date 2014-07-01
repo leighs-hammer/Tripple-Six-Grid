@@ -1,0 +1,67 @@
+/* The TrippleSix simple responsive library */
+
+/* Responsize setup */
+.fifty, .thirty, .seventyfive {
+   min-width: 300px;
+    max-width: 480px;
+}
+.twentyfive {
+    min-width: 220px;
+    
+}
+
+
+/* Global Setup */
+
+.fifty {
+    overflow: hidden;
+    float: left;
+    width: 48%;
+    padding: 1%;
+}
+
+.thirty {
+    overflow: hidden;
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+.twentyfive {
+    overflow: hidden;
+    width: 23%;
+    padding: 1%;
+    float: left;    
+}
+.seventyfive {
+   width: 73%;
+   overflow: hidden;
+   padding: 1%;
+   float: left;
+}
+.hundred {
+    width: 100%;
+    clear: both;
+    float: left;
+    min-width: 320px;
+    text-align: center;
+}
+.twentyfivenl {
+    overflow: hidden;
+    width: 23%;
+    padding: 1%;
+    float: left;
+    min-width: 60px;
+    
+}
+
+/* MOBILE SPECIFICATION */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    
+    .fifty, .thirty, .twentyfive, .twenty, .hundred,  .twentyfive {
+    width: 320px !important;
+    max-width: 480px;
+}}
