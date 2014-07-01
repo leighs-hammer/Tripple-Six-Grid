@@ -54,6 +54,11 @@
     min-width: 60px;
     
 }
+.twenty {
+   width: 18%;
+   padding: 1%;
+   float: left;
+}
 
 /* MOBILE SPECIFICATION */
 
@@ -62,6 +67,6 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
     
     .fifty, .thirty, .twentyfive, .twenty, .hundred,  .twentyfive {
-    width: 320px !important;
+    width: 100%!important;
     max-width: 480px;
 }}
